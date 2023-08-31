@@ -2,7 +2,7 @@
   "name": "face-recognition-nodeserver",
   "version": "1.0.0",
   "description": "Local Server for the face-recognition app",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "nodemon server.js"
   },
