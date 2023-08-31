@@ -5,7 +5,7 @@
   "main": "server.js",
   "repository": "https://github.com/Pseidu/face-recognition-nodeServer",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
