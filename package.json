@@ -4,6 +4,8 @@
   "description": "Local Server for the face-recognition app",
   "main": "server.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "nodemon server.js"
   },
   "author": "",
@@ -13,6 +15,7 @@
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
     "express": "^4.18.2",
+    "gh-pages": "^6.0.0",
     "knex": "^2.5.1",
     "pg": "^8.11.3"
   },
