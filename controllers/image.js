@@ -2,7 +2,8 @@
 // Necessary data for Clarifai API
 const returnClarifaiRequestOptions = (imageUrl) => {
     // PAT (Personal Access Token) can be found in clarifai.com (Authentification)
-    const PAT = '4fc069d4cdc0412c8ba6ac50310a529e';
+    const PAT = process.env.API_CLARIFAI;
+    //const PAT = '4fc069d4cdc0412c8ba6ac50310a529e';
     // my clarifai user & my clarifai App
     const USER_ID = 'rsg';
     const APP_ID = 'using-face-detection';
